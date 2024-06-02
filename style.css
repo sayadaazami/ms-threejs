@@ -1,0 +1,13 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+#root {
+  position: absolute;
+  background-color: red;
+  width: auto;
+  display: inline-block;
+  padding: 0.5em;
+}
