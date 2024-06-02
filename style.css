@@ -2,12 +2,14 @@ html,
 body {
   margin: 0;
   padding: 0;
+  height: 100lvh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 #root {
-  position: absolute;
   background-color: red;
-  width: auto;
   display: inline-block;
   padding: 0.5em;
 }

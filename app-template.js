@@ -3,8 +3,7 @@ let elapsedTime = 0;
 let startTime = Date.now();
 
 const looper = () => {
-  rootElement.style.transform = `rotate(${elapsedTime / 1000 * 6}deg)`;
-
+  //TODO
   elapsedTime = Date.now() - startTime;
   requestAnimationFrame(looper);
 };
